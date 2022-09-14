@@ -22,6 +22,4 @@ public class Main {
         books[next] = book;
         next = next + 1;
     }
-
-    
 }
