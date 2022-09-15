@@ -1,25 +1,13 @@
-import java.awt.print.Book;
-
 public class Main {
-    int Book;
-    static Book[] books = new Book[3];
-    int next = 0;
-
     public static void main(String[] args) {
-        var library = new Library ( librarySize: 5);
-        library.add(new Book ( name: "name", author: null, publicationYear: 123));
-        library.add(new Book ( name: "name", author: null, publicationYear: 123));
-        library.add(new Book ( name: "name", author: null, publicationYear: 123));
-        library.add(new Book ( name: "name", author: null, publicationYear: 123));
-        library.add(new Book ( name: "name", author: null, publicationYear: 123));
-        library.add(new Book ( name: "name", author: null, publicationYear: 123));
+        var autor = new Autor( name "Autor", surname "Family"};
+    var autor1 = new Autor( name "Autor1", surname "Family1"};
+	var autor2 = new Autor( name "Autor2", surname "Family2"};
+            var book1 = new Book( name "Book1", autor, publicationYear 1976"};
+            var book2 = new Book( name "Book2", autor, publicationYear 1985"};
+            var book3 = new Book( name "Book3", autor, publicationYear 2015"};
 
-        addBook(new Book( name: "name1", author: null, publicationYear: 123));
-        addBook(new Book( name: "name1", author: null, publicationYear: 123));
-        addBook(new Book( name: "name1", author: null, publicationYear: 123));
-    }
-    public static void addBook(java.awt.print.Book) {
-        books[next] = book;
-        next = next + 1;
-    }
-}
+            System.out.println(book1.getnam() + " " + book1.getAutor() +" "+ book1.publicationYear());
+            }
+            }
+
